@@ -22,6 +22,9 @@ form{
     border-radius: 10px;
     justify-content: space-evenly;
 }
+form a{
+    text-align: right;
+}
 #judul{
     display: flex;
     flex-direction: column;
@@ -44,11 +47,11 @@ form{
 .shadow{
     box-shadow: 0 0 3px black;
 }
-.btn-primary{
-    background-color: #8C23DE;
-    border-radius: 6px;
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8C23DE !important;
+    
 }
 .btn-primary:hover{
-    background-color: #6D1BAB;
+    background-color: #6D1BAB !important;
     transition: 0.3s;
 }
